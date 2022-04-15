@@ -8,7 +8,7 @@
   
 🕛 **Status:** Finished ✔️
 
-🌎 **Result Preview: [Live Demo](https://matheusberg.github.io/rocketseat-explorer/project-01/)**
+🌎 **Result Preview: [Live Demo](https://matheusberg.github.io/rocketseat-explorer/Project-01/)**
 
 ☑️ **Task:** build a small business static website from a given [Figma](https://www.figma.com/file/N79YZLomd5J9qGJcSBqGOX/Explorer---Projeto-01-(Copy)) project.
 
