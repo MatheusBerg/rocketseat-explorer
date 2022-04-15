@@ -16,7 +16,7 @@ A way to document my journey as a WebDev aspirer 🚀
 - Project 2: [Fixing a broken website](https://github.com/matheusberg/rocketseat-explorer/tree/main/project-02)
 - Project 3: [Recreating static website](https://github.com/matheusberg/rocketseat-explorer/tree/main/project-03)
 
-![Alt text](https://raw.githubusercontent.com/oleandrolozano/rocketseat-explorer/main/project_slide.gif "Slide Show - Screenshots from projects")
+![Alt text](https://raw.githubusercontent.com/matheusberg/rocketseat-explorer/main/project_slide.gif "Slide Show - Screenshots from projects")
 
 ---
 #### Status: 🚧 In progress
