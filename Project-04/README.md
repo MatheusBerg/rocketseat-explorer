@@ -10,7 +10,7 @@
 
 🌎 **Result Preview: [Live Demo](https://MatheusBerg.github.io/rocketseat-explorer/Project-04/)**
 
-☑️ **Task:** Recreate a website from a given [Figma](https://www.figma.com/file/ZmizPhWqTbWGmoPjEdWkGd/Explorer-Stage-03-Projeto-01-(Copy)) project template.
+☑️ **Task:** Create a webform from a given [Figma](https://www.figma.com/file/ZmizPhWqTbWGmoPjEdWkGd/Explorer-Stage-03-Projeto-01-(Copy)) project template.
 
 - [x] How to use inputs in HTML;
 - [x] Understand how Web forms work;
