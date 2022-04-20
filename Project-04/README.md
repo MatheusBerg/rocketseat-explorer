@@ -1,6 +1,6 @@
 # 🚀 Rocketseat's Explorer Course Documentation 📁
  
-### Stage 03 - Project 4: Recreating static website
+### Stage 03 - Project 4: Creating a webform using HTML and CSS
  
 ---
   
