@@ -17,7 +17,7 @@ A way to document my journey as a WebDev aspirer 🚀
 - Project 3: [Recreating static website](https://github.com/MatheusBerg/rocketseat-explorer/tree/main/Project-03)
 - Project 4: [Creating a webform using HTML and CSS](https://github.com/MatheusBerg/rocketseat-explorer/tree/main/Project-04)
 - Project 5: [Challenge: Creating a simple webform using HTML and CSS](https://github.com/MatheusBerg/rocketseat-explorer/tree/main/Project-05)
-- Project 6: [Challenge: Creating a full webform using HTML and CSS] (https://github.com/MatheusBerg/rocketseat-explorer/tree/main/Project-06)
+- Project 6: [Challenge: Creating a full webform using HTML and CSS](https://github.com/MatheusBerg/rocketseat-explorer/tree/main/Project-06)
 
 ![Alt text](https://raw.githubusercontent.com/MatheusBerg/rocketseat-explorer/main/project_slide.gif "Slide Show - Screenshots from projects")
 
