@@ -1,6 +1,6 @@
 # 🚀 Rocketseat's Explorer Course Documentation 📁
  
-### Stage 03 - Project 5: Challenge: Creating a webform using HTML and CSS
+### Stage 03 - Project 6: Challenge: Creating a webform using HTML and CSS
  
 ---
   
