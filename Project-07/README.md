@@ -12,13 +12,7 @@
 
 ☑️ **Task:** Create a webform from a given [Figma](https://www.figma.com/file/rBhwrPCjk1HQ0gTKRyo10H/Stage-03---Mobile-First-(Copy)) project template.
 
-- [x] How to use inputs in HTML;
-- [x] Understand how Web forms work;
-- [x] Know the difference between GET and POST methods;
-- [x] Working with Pseudo-elements in CSS;
-- [x] Validate form fields;
-- [x] Select fields;
-- [x] Checkbox fields;
-
+- [x] Know about mobile-first rule;
+- [x] Apply relative units into CSS;
 
 📌 **Stacks:** HTML | CSS
