@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Staatliches', cursive;
+
+  min-width: 32rem;
+  margin: 0 auto;
+  background: #EFF1FF;
+}
+
+.page {
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 3.2rem 0;
+  gap: 3.2rem;
+
+  display: flex;
+  flex-direction: column;
+  background: #8E9AAF;
+}
+
+header .logo {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  transition: 1s transform;
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+}
+
+header .logo #moon {
+  position: relative;
+  animation: 8s moon-rotate infinite linear;
+  z-index: 1;
+}
+
+header .logo #ice-cream {
+  position: absolute;
+  top: 20%;
+  left: 4.5rem;
+  z-index: 2;
+
+  animation: 4s ice-cream infinite ease-in-out;   
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 3.4rem;  
+
+  letter-spacing: 0.05em;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+  background: #CBC0D3;
+  padding: 0.8rem 8.6rem;
+
+  animation: 0.5s back-to-top backwards;
+}
+
+header p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5rem;
+
+  min-width: 28rem;
+  max-width: 50rem;
+
+  display: flex; 
+  text-align: center;
+  align-items: center;
+
+  color: #FFFFFF; 
+  margin-top: 2.5rem;
+  padding: 1.4rem 3rem 0;
+
+
+  animation: 0.7s back-to-top backwards;
+}
+
+main {
+  min-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+}
+
+
+.cards {
+  /* width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center; */
+  margin-top: 6.3rem;  
+  display: grid;
+  grid-template-areas: "A" "B" "C" "D" "E" "F";
+  gap: 3.6rem;
+}
+
+.cards .card {
+  position: relative;  
+  animation: 1s right-to-left backwards;
+  transition: 0.3s transform;  
+}
+
+.cards .card:nth-child(1) {
+  grid-area: A;
+}
+.cards .card:nth-child(2) {
+  grid-area: B;
+}
+.cards .card:nth-child(3) {
+  grid-area: C;
+}
+.cards .card:nth-child(4) {
+  grid-area: D;
+}
+.cards .card:nth-child(5) {
+  grid-area: E;
+}
+.cards .card:nth-child(6) {
+  grid-area: F;
+}
+
+.cards .card:hover {
+  transform: scale(1.1);
+}
+
+.cards .card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+
+  object-fit: cover;
+}
+
+.cards .card h2 {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+
+  color: #4A4E69;
+  background: #FEEAFA;
+  padding: 1px 2.3rem;
+  border-radius: 2rem;
+}
+
+footer p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+
+  text-align: center;
+
+  color: #4a4e69;
+
+  padding-bottom: 3rem;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #23053a;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@keyframes moon-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ice-cream {
+  0% {
+    transform: translate(-10rem, 2rem);
+    z-index: 1;        
+  }
+
+  50% {
+    transform: translate(9rem, -3rem);
+  }
+
+  100% {
+    transform: translate(-10rem, 2rem);
+    z-index: 0;    
+  }
+}
+
+@keyframes back-to-top {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes right-to-left {
+  0% {
+    opacity: 0;
+    transform: translateX(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 700px) {
+  main {
+    min-width: 60rem;
+
+    padding: 0 10rem;
+  }
+
+  .cards {
+    grid-template-areas:
+    "A B"
+    "D B"
+    "D C"
+    "F C"
+    "F E";
+  }
+}
+
+@media (min-width: 800px) {
+  .page {
+    display: grid;
+    grid-template-areas:
+      "header main  "
+      "header footer";
+  }
+
+  .page header {
+    grid-area: header;
+
+    max-width: 32rem;
+
+    gap: 6rem;
+  }
+
+  .page main {
+    grid-area: main;
+    margin: 0 auto;
+    padding: 0;
+
+    min-width: 47rem;
+  }
+  .page main .cards {
+    padding: 4rem;
+    margin: 0 auto;
+  }
+
+  .page footer {
+    grid-area: footer;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page {
+    grid-template-areas:
+      "header main main main"
+      "header footer footer footer";
+  }
+
+  .page main {
+    padding: 0 4rem;
+
+    max-width: 95rem;
+  }
+
+  .page main .cards {
+    grid-template-areas:
+      "A B C"
+      "D B F"
+      "D E F";
+  }
+}
