@@ -13,6 +13,7 @@
 ☑️ **Task:** Create a webform from a given [Figma](https://www.figma.com/file/rBhwrPCjk1HQ0gTKRyo10H/Stage-03---Mobile-First-(Copy)) project template.
 
 - [x] Know about mobile-first rule;
+- [x] CSS Animations;
 - [x] Apply relative units into CSS;
 
 📌 **Stacks:** HTML | CSS
